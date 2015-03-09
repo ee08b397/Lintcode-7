@@ -42,4 +42,3 @@ public:
         return vec;
     }
 };
-

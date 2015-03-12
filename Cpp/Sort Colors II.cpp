@@ -21,9 +21,9 @@ public:
                     colors[left] = colors[right];
                     colors[right] = cnt;
                 }
-                right = left - 1;
-                left = 0;
             }
+            right = left - 1;
+            left = 0;
         }
     }
 };

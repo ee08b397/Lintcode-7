@@ -38,14 +38,8 @@ public:
         SegmentTreeNode *root = new SegmentTreeNode(start, end, A[mid]);
         root->left = build(start, mid, A);
         root->right = build(mid + 1, end, A);
-        return root;
-    }
-    void modify(SegmentTreeNode* root) {
-        if (root->start == root->end) return;
-        modify(root->left);
-        modify(root->right);
         root->val = root->left->val + root->right->val;
-        return;
+        return root;
     }
     long long query(Interval res, SegmentTreeNode *root) {
         if (res.start <= root->start && res.end >= root->end) return root->val;
@@ -62,7 +56,6 @@ public:
         // write your code here
         vector<long long> vec;
         SegmentTreeNode *root = build(0, A.size() - 1, A);
-        modify(root);
         for (int i = 0; i < queries.size(); i ++) {
             vec.push_back(query(queries[i], root));
         }

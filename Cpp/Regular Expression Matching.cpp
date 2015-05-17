@@ -17,7 +17,7 @@ public:
             if (p[i-1] == '*' && i >= 2) vis[0][i] = vis[0][i-2];
         }
         for (int i = 0; i < lens; i ++) {
-            for (int j = 0; j <= lenp; j ++) {
+            for (int j = 0; j < lenp; j ++) {
                 if (p[j] != '*' && (p[j] == '.' || s[i] == p[j])) {
                     vis[i+1][j+1] = vis[i][j];
                 } else if(p[j] == '*') {

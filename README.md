@@ -3,7 +3,7 @@ LintCode
 
 Up to date (2015-05-31), there are `228` problems on [LintCode Online Judge](https://lintcode.com/).
 The number of problems is increasing recently.
-Here is the classification of all `228` problems.
+Here is the classification of all the solved problems.
 For extra problems and solutions, you can see my [LeetCode](https://github.com/iFighting/LeetCode) repo.
 I'll keep updating for full summary and better solutions. Stay tuned for updates.
 
@@ -38,62 +38,62 @@ Algorithms
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |
 |---| ----- | -------- | ---- | ----- | ---------- | --- | ---- |
 |1|[A + B Problem](http://lintcode.com/en/problem/a-b-problem/)| [Cpp](./Cpp/A + B Problem.cpp)| _O(1)_ | _O(1)_ | Hard | | |
-|82|[Single Number](http://lintcode.com/en/problem/single-number-iii/)| [Cpp](./Cpp/Single Number.cpp)| _O(n)_ | _O(1)_ | Easy | LeetCode| |
-|83|[Single Number II](http://lintcode.com/en/problem/single-number-iii/)| [Cpp](./Cpp/Single Number II.cpp)| _O(n)_ | _O(1)_ | Easy | LeetCode | |
-|84|[Single Number III](http://lintcode.com/en/problem/single-number-iii/)| [Cpp](./Cpp/Single Number III.cpp)| _O(n)_ | _O(1)_ | Medium | CTCI | |
-|142|[O(1) Check Power of 2](http://lintcode.com/en/problem/o1-check-power-of-2/)| [Cpp](./Cpp/O\(1\)\Check Power of 2.cpp)| _O(1)_ | _O(1)_ | Easy | | |
-|179|[Update Bits](http://lintcode.com/en/problem/update-bits/)| [Cpp](./Cpp/[Update Bits.cpp)| _O(1)_ | _O(1)_ | Medium | CTCI | |
-|181|[Convert Integer A to Integer B](http://lintcode.com/en/problem/convert-integer-a-to-integer-b/)| [Cpp](./Cpp/Convert Integer A to Integer B.cpp)| _O(1)_ | _O(1)_ | Easy | CTCI | |
+|82|[Single Number](http://lintcode.com/en/problem/single-number-iii/)| [Cpp](./Cpp/Single Number.cpp)| _O(n)_ | _O(1)_ | Easy | Bit Manipulation | |
+|83|[Single Number II](http://lintcode.com/en/problem/single-number-iii/)| [Cpp](./Cpp/Single Number II.cpp)| _O(n)_ | _O(1)_ | Medium | | |
+|84|[Single Number III](http://lintcode.com/en/problem/single-number-iii/)| [Cpp](./Cpp/Single Number III.cpp)| _O(n)_ | _O(1)_ | Medium | | |
+|142|[O(1) Check Power of 2](http://lintcode.com/en/problem/o1-check-power-of-2/)| [Cpp](./Cpp/O(1\)Check Power of 2.cpp)| _O(1)_ | _O(1)_ | Easy | | |
+|179|[Update Bits](http://lintcode.com/en/problem/update-bits/)| [Cpp](./Cpp/[Update Bits.cpp)| _O(1)_ | _O(1)_ | Medium | | |
+|181|[Convert Integer A to Integer B](http://lintcode.com/en/problem/convert-integer-a-to-integer-b/)| [Cpp](./Cpp/Convert Integer A to Integer B.cpp)| _O(1)_ | _O(1)_ | Easy | | |
 
 ---
 
 ##Array
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |
 |---| ----- | -------- | ---- | ----- | ---------- | --- | ---- |
-|6|[Merge Sorted Array](http://lintcode.com/en/problem/merge-sorted-array/)| [Cpp](./Cpp/merge-sorted-array.cpp)| _O(m + n)_ | _O(1)_ | Easy | LeetCode | Two Pointers |
-|8|[Rotate String](http://lintcode.com/en/problem/rotate-string/)| [Cpp](./Cpp/rotate-string.cpp)| _O(n)_ | _O(1)_ | Easy | LeetCode | |
-|9|[Fizz Buzz](http://lintcode.com/en/problem/fizz-buzz/)| [Cpp](./Cpp/fizz-buzz.cpp)| _O(n)_ | _O(1)_ | Easy | | |
-|30|[Insert Interval](http://lintcode.com/en/problem/insert-interval/)| [Cpp](./Cpp/insert-interval.cpp)| _O(n)_ | _O(1)_ | Easy | LeetCode, EPI | |
-|31|[Partition Array](http://lintcode.com/en/problem/partition-array/)| [Cpp](./Cpp/partition-array.cpp)| _O(n)_ | _O(1)_ | Medium | | Two Pointers |
-|32|[Minimum Window Substring](http://lintcode.com/en/problem/minimum-window-substring/)| [Cpp](./Cpp/minimum-window-substring.cpp)| _O(n)_ | _O(1)_ | Medium | LeetCode | |
-|38|[Search a 2D Matrix II](http://lintcode.com/en/problem/search-a-2d-matrix-ii/)| [Cpp](./Cpp/search-a-2d-matrix-ii.cpp)| _O(m + n)_ | _O(1)_ | Medium | EPI | |
-|39|[Recover Rotated Sorted Array](http://lintcode.com/en/problem/recover-rotated-sorted-array/)| [Cpp](./Cpp/recover-rotated-sorted-array.cpp)| _O(n)_ | _O(1)_ | Easy | | |
-|46|[Majority Number](http://lintcode.com/en/problem/majority-number/)| [Cpp](./Cpp/majority-number.cpp)| _O(n)_ | _O(1)_ | Easy | LeetCode | |
-|47|[Majority Number II](http://lintcode.com/en/problem/majority-number/)| [Cpp](./Cpp/majority-number-ii.cpp)| _O(n)_ | _O(1)_ | Medium | EPI | |
-|48|[Majority Number III](http://lintcode.com/en/problem/majority-number-iii/)| [Cpp](./Cpp/majority-number-iii.cpp)| _O(n)_ | _O(k)_ | Medium | EPI | |
-|49|[Sort Letters by Case](http://lintcode.com/en/problem/sort-letters-by-case/)| [Cpp](./Cpp/sort-letters-by-case.cpp)| _O(n)_ | _O(1)_ | Medium | | Two Pointers |
-|50|[Product of Array Exclude Itself](http://lintcode.com/en/problem/product-of-array-exclude-itself/)| [Cpp](./Cpp/product-of-array-exclude-itself.cpp)| _O(n)_ | _O(n)_ | Easy | | |
-|51|[Previous Permutation](http://lintcode.com/en/problem/previous-permutation/)| [Cpp](./Cpp/previous-permutation.cpp)| _O(n)_ | _O(1)_ | Medium | | |
-|52|[Next Permutation](http://lintcode.com/en/problem/next-permutation/)| [Cpp](./Cpp/next-permutation.cpp)| _O(n)_ | _O(1)_ | Medium | LeetCode | |
-|57|[3 Sum](http://lintcode.com/en/problem/3-sum/)| [Cpp](./Cpp/3-sum.cpp)| _O(n^2)_ | _O(1)_ | Medium | LeetCode | Two Pointers, Sort |
-|59|[3 Sum Closest](http://lintcode.com/en/problem/3-sum-closest/)| [Cpp](./Cpp/3-sum-closest.cpp)| _O(n^2)_ | _O(1)_ | Medium | LeetCode | Two Pointers, Sort |
-|64|[Merge Sorted Array II](http://lintcode.com/en/problem/merge-sorted-array-ii/)| [Cpp](./Cpp/merge-sorted-array-ii.cpp)| _O(m + n)_ | _O(1)_ | Easy | LeetCode | Two Pointers |
-|100|[Remove Duplicates from Sorted Array](http://lintcode.com/en/problem/remove-duplicates-from-sorted-array/)| [Cpp](./Cpp/remove-duplicates-from-sorted-array.cpp)| _O(n)_ | _O(1)_ | Easy | LeetCode | Two Pointers |
-|101|[Remove Duplicates from Sorted Array II](http://lintcode.com/en/problem/remove-duplicates-from-sorted-array-ii/)| [Cpp](./Cpp/remove-duplicates-from-sorted-array-ii.cpp)| _O(n)_ | _O(1)_ | Easy | LeetCode | Two Pointers |
-|144|[Interleaving Positive and Negative Numbers](http://lintcode.com/en/problem/interleaving-positive-and-negative-numbers/)| [Cpp](./Cpp/interleaving-positive-and-negative-numbers.cpp)| _O(n)_ | _O(1)_ | Medium | | Two Pointers |
-|161|[Rotate Image](http://lintcode.com/en/problem/rotate-image/)| [Cpp](./Cpp/rotate-image.cpp)| _O(n)_ | _O(1)_ | Medium | LeetCode | |
-|162|[Set Matrix Zeroes](http://lintcode.com/en/problem/set-matrix-zeroes/)| [Cpp](./Cpp/set-matrix-zeroes.cpp)| _O(n)_ | _O(1)_ | Medium | LeetCode | |
-|172|[Remove Element](http://lintcode.com/en/problem/remove-element/)| [Cpp](./Cpp/remove-element.cpp)| _O(n)_ | _O(1)_ | Easy | LeetCode | Two Pointers |
-|185|[Matrix Zigzag Traversal](http://lintcode.com/en/problem/matrix-zigzag-traversal/)| [Cpp](./Cpp/matrix-zigzag-traversal.cpp)| _O(m * n)_ | _O(1)_ | Easy | | |
-|189|[First Missing Positive](http://lintcode.com/en/problem/first-missing-positive/)| [Cpp](./Cpp/first-missing-positive.cpp)| _O(n)_ | _O(1)_ | Easy | LeetCode, EPI | Hash |
-|363|[Trapping Rain Water](http://lintcode.com/en/problem/trapping-rain-water/)| [Cpp](./Cpp/trapping-rain-water.cpp)| _O(n)_ | _O(1)_ | Medium | LeetCode | Two Pointers, Tricky |
-|383|[Container With Most Water](http://lintcode.com/en/problem/container-with-most-water/)| [Cpp](./Cpp/container-with-most-water.cpp)| _O(n)_ | _O(1)_ | Medium | LeetCode, EPI | Two Pointers |
-|388|[Permutation Sequence](http://lintcode.com/en/problem/permutation-sequence/)| [Cpp](./Cpp/permutation-sequence.cpp)| _O(n^2)_ | _O(n)_ | Medium | LeetCode | |
-|389|[Valid Sudoku](http://lintcode.com/en/problem/valid-sudoku/)| [Cpp](./Cpp/valid-sudoku.cpp)| _O(9^2)_ | _O(9)_ | Easy | LeetCode | |
+|6|[Merge Sorted Array](http://lintcode.com/en/problem/merge-sorted-array/)| [Cpp](./Cpp/Merge Sorted Array.cpp)| _O(m + n)_ | _O(1)_ | Easy | LeetCode | Two Pointers |
+|8|[Rotate String](http://lintcode.com/en/problem/rotate-string/)| [Cpp](./Cpp/Rotate String.cpp)| _O(n)_ | _O(1)_ | Easy | LeetCode | |
+|9|[Fizz Buzz](http://lintcode.com/en/problem/fizz-buzz/)| [Cpp](./Cpp/Fizz Buzz.cpp)| _O(n)_ | _O(1)_ | Easy | | |
+|30|[Insert Interval](http://lintcode.com/en/problem/insert-interval/)| [Cpp](./Cpp/Insert Interval.cpp)| _O(n)_ | _O(1)_ | Easy | LeetCode | |
+|31|[Partition Array](http://lintcode.com/en/problem/partition-array/)| [Cpp](./Cpp/Partition Array.cpp)| _O(n)_ | _O(1)_ | Medium | | Two Pointers |
+|32|[Minimum Window Substring](http://lintcode.com/en/problem/minimum-window-substring/)| [Cpp](./Cpp/Minimum Window Substring.cpp)| _O(n)_ | _O(1)_ | Medium | Two Pointers | |
+|38|[Search a 2D Matrix II](http://lintcode.com/en/problem/search-a-2d-matrix-ii/)| [Cpp](./Cpp/Search a 2D Matrix II.cpp)| _O(m + n)_ | _O(1)_ | Medium | | |
+|39|[Recover Rotated Sorted Array](http://lintcode.com/en/problem/recover-rotated-sorted-array/)| [Cpp](./Cpp/Recover Rotated Sorted Array.cpp)| _O(n)_ | _O(1)_ | Easy | | |
+|46|[Majority Number](http://lintcode.com/en/problem/majority-number/)| [Cpp](./Cpp/Majority Number.cpp)| _O(n)_ | _O(1)_ | Easy | LeetCode | |
+|47|[Majority Number II](http://lintcode.com/en/problem/majority-number/)| [Cpp](./Cpp/Majority Number II.cpp)| _O(n)_ | _O(1)_ | Medium | | |
+|48|[Majority Number III](http://lintcode.com/en/problem/majority-number-iii/)| [Cpp](./Cpp/Majority Number III.cpp)| _O(n)_ | _O(k)_ | Medium | Heap | |
+|49|[Sort Letters by Case](http://lintcode.com/en/problem/sort-letters-by-case/)| [Cpp](./Cpp/Sort Letters by Case.cpp)| _O(n)_ | _O(1)_ | Medium | | Two Pointers |
+|50|[Product of Array Exclude Itself](http://lintcode.com/en/problem/product-of-array-exclude-itself/)| [Cpp](./Cpp/Product of Array Exclude Itself.cpp)| _O(n)_ | _O(n)_ | Easy | | |
+|51|[Previous Permutation](http://lintcode.com/en/problem/previous-permutation/)| [Cpp](./Cpp/Previous Permutation.cpp)| _O(n)_ | _O(1)_ | Medium | | |
+|52|[Next Permutation](http://lintcode.com/en/problem/next-permutation/)| [Cpp](./Cpp/Next Permutation.cpp)| _O(n)_ | _O(1)_ | Medium | LeetCode | |
+|57|[3 Sum](http://lintcode.com/en/problem/3-sum/)| [Cpp](./Cpp/3 Sum.cpp)| _O(n^2)_ | _O(1)_ | Medium | LeetCode | Two Pointers, Sort |
+|59|[3 Sum Closest](http://lintcode.com/en/problem/3-sum-closest/)| [Cpp](./Cpp/3 Sum Closest.cpp)| _O(n^2)_ | _O(1)_ | Medium | LeetCode | Two Pointers, Sort |
+|64|[Merge Sorted Array II](http://lintcode.com/en/problem/merge-sorted-array-ii/)| [Cpp](./Cpp/Merge Sorted Array II.cpp)| _O(m + n)_ | _O(1)_ | Easy | LeetCode | Two Pointers |
+|100|[Remove Duplicates from Sorted Array](http://lintcode.com/en/problem/remove-duplicates-from-sorted-array/)| [Cpp](./Cpp/Remove Duplicates from Sorted Array.cpp)| _O(n)_ | _O(1)_ | Easy | LeetCode | Two Pointers |
+|101|[Remove Duplicates from Sorted Array II](http://lintcode.com/en/problem/remove-duplicates-from-sorted-array-ii/)| [Cpp](./Cpp/Remove Duplicates from Sorted Array II.cpp)| _O(n)_ | _O(1)_ | Easy | LeetCode | Two Pointers |
+|144|[Interleaving Positive and Negative Numbers](http://lintcode.com/en/problem/interleaving-positive-and-negative-numbers/)| [Cpp](./Cpp/Interleaving Positive and Negative Numbers.cpp)| _O(n)_ | _O(1)_ | Medium | | Two Pointers |
+|161|[Rotate Image](http://lintcode.com/en/problem/rotate-image/)| [Cpp](./Cpp/Rotate Image.cpp)| _O(n)_ | _O(1)_ | Medium | LeetCode | |
+|162|[Set Matrix Zeroes](http://lintcode.com/en/problem/set-matrix-zeroes/)| [Cpp](./Cpp/Set Matrix Zeroes.cpp)| _O(n)_ | _O(1)_ | Medium | LeetCode | |
+|172|[Remove Element](http://lintcode.com/en/problem/remove-element/)| [Cpp](./Cpp/Remove Element.cpp)| _O(n)_ | _O(1)_ | Easy | LeetCode | Two Pointers |
+|185|[Matrix Zigzag Traversal](http://lintcode.com/en/problem/matrix-zigzag-traversal/)| [Cpp](./Cpp/Matrix Zigzag Traversal.cpp)| _O(m * n)_ | _O(1)_ | Easy | | |
+|189|[First Missing Positive](http://lintcode.com/en/problem/first-missing-positive/)| [Cpp](./Cpp/First Missing Positive.cpp)| _O(n)_ | _O(1)_ | Easy | LeetCode, EPI | Hash |
+|363|[Trapping Rain Water](http://lintcode.com/en/problem/trapping-rain-water/)| [Cpp](./Cpp/Trapping Rain Water.cpp)| _O(n)_ | _O(1)_ | Medium | LeetCode | Two Pointers, Tricky |
+|383|[Container With Most Water](http://lintcode.com/en/problem/container-with-most-water/)| [Cpp](./Cpp/Container With Most Water.cpp)| _O(n)_ | _O(1)_ | Medium | LeetCode, EPI | Two Pointers |
+|388|[Permutation Sequence](http://lintcode.com/en/problem/permutation-sequence/)| [Cpp](./Cpp/Permutation Sequence.cpp)| _O(n^2)_ | _O(n)_ | Medium | LeetCode | |
+|389|[Valid Sudoku](http://lintcode.com/en/problem/valid-sudoku/)| [Cpp](./Cpp/Valid Sudoku.cpp)| _O(9^2)_ | _O(9)_ | Easy | LeetCode | |
 
 ---
 
 ##String
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |
 |---| ----- | -------- | ---- | ----- | ---------- | --- | ---- |
-|13|[strStr](http://lintcode.com/en/problem/strstr/)|[Cpp](./Cpp/strstr.cpp)| _O(n)_ | _O(k)_ | Easy | LeetCode | `KMP Algorithm` |
-|53|[Reverse Words in a String](http://lintcode.com/en/problem/reverse-words-in-a-string/)|[Cpp](./Cpp/reverse-words-in-a-string.cpp)| _O(n)_ | _O(1)_ | Easy | LeetCode, EPI | |
-|54|[Convert String to Integer](http://lintcode.com/en/problem/convert-string-to-integer/)|[Cpp](./Cpp/convert-string-to-integer.cpp)| _O(n)_ | _O(1)_ | Hard | LeetCode | |
-|55|[Compare Strings](http://lintcode.com/en/problem/compare-strings/)|[Cpp](./Cpp/compare-strings.cpp)| _O(n)_ | _O(c)_ | Easy | | |
-|78|[Longest Common Prefix](http://lintcode.com/en/problem/longest-common-prefix/)|[Cpp](./Cpp/longest-common-prefix.cpp)| _O(n)_ | _O(1)_ | Medium | | |
-|157|[Unique Characters](http://lintcode.com/en/problem/unique-characters/)|[Cpp](./Cpp/unique-characters.cpp)| _O(n)_ | _O(1)_ | Easy | CTCI | |
-|158|[Two Strings Are Anagrams](http://lintcode.com/en/problem/two-strings-are-anagrams/)|[Cpp](./Cpp/two-strings-are-anagrams.cpp)| _O(n)_ | _O(1)_ | Easy | | |
-|171|[Anagrams](http://lintcode.com/en/problem/anagrams/)|[Cpp](./Cpp/anagrams.cpp)| _O(n * klogk)_ | _O(m)_ | Easy | LeetCode, EPI | |
+|13|[strStr](http://lintcode.com/en/problem/strstr/)|[Cpp](./Cpp/Strstr.cpp)| _O(n)_ | _O(k)_ | Easy | LeetCode | `KMP Algorithm` |
+|53|[Reverse Words in a String](http://lintcode.com/en/problem/reverse-words-in-a-string/)|[Cpp](./Cpp/Reverse Words in a String.cpp)| _O(n)_ | _O(1)_ | Easy | LeetCode | |
+|54|[Convert String to Integer](http://lintcode.com/en/problem/convert-string-to-integer/)|[Cpp](./Cpp/Convert String to Integer.cpp)| _O(n)_ | _O(1)_ | Hard | LeetCode | |
+|55|[Compare Strings](http://lintcode.com/en/problem/compare-strings/)|[Cpp](./Cpp/Compare Strings.cpp)| _O(n)_ | _O(c)_ | Easy | | |
+|78|[Longest Common Prefix](http://lintcode.com/en/problem/longest-common-prefix/)|[Cpp](./Cpp/Longest Common Prefix.cpp)| _O(n)_ | _O(1)_ | Medium | | |
+|157|[Unique Characters](http://lintcode.com/en/problem/unique-characters/)|[Cpp](./Cpp/Unique Characters.cpp)| _O(n)_ | _O(1)_ | Easy | CTCI | |
+|158|[Two Strings Are Anagrams](http://lintcode.com/en/problem/two-strings-are-anagrams/)|[Cpp](./Cpp/Two Strings Are Anagrams.cpp)| _O(n)_ | _O(1)_ | Easy | | |
+|171|[Anagrams](http://lintcode.com/en/problem/anagrams/)|[Cpp](./Cpp/Anagrams.cpp)| _O(n * klogk)_ | _O(m)_ | Easy | LeetCode, EPI | |
 
 ---
 

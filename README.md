@@ -100,111 +100,111 @@ Algorithms
 ##Linked List
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |
 |---| ----- | -------- | ---- | ----- | ---------- | --- | ---- |
-|16|[Merge Two Sorted Lists](http://lintcode.com/en/problem/merge-two-sorted-lists/)|[Cpp](./Cpp/merge-two-sorted-lists.cpp)| _O(n)_ | _O(1)_ | Easy | LeetCode, EPI | |
-|35|[Reverse Linked List](http://lintcode.com/en/problem/reverse-linked-list/)|[Cpp](./Cpp/reverse-linked-list.cpp)| _O(n)_ | _O(1)_ | Easy | LeetCode, EPI | |
-|36|[Reverse Linked List II](http://lintcode.com/en/problem/reverse-linked-list-ii/)|[Cpp](./Cpp/reverse-linked-list-ii.cpp)| _O(n)_ | _O(1)_ | Medium | LeetCode, EPI | |
-|96|[Partition List](http://lintcode.com/en/problem/partition-list/)|[Cpp](./Cpp/partition-list.cpp)| _O(n)_ | _O(1)_ | Easy | LeetCode | |
-|98|[Sort List](http://lintcode.com/en/problem/sort-list/)|[Cpp](./Cpp/sort-list.cpp)| _O(nlogn)_ | _O(logn)_ | Medium | LeetCode, EPI | |
-|99|[Reorder List](http://lintcode.com/en/problem/reorder-list/)|[Cpp](./Cpp/reorder-list.cpp)| _O(n)_ | _O(1)_ | Medium | LeetCode | |
-|102|[Linked List Cycle](http://lintcode.com/en/problem/linked-list-cycle/)|[Cpp](./Cpp/linked-list-cycle.cpp)| _O(n)_ | _O(1)_ | Medium | LeetCode | |
-|103|[Linked List Cycle II](http://lintcode.com/en/problem/linked-list-cycle-ii/)|[Cpp](./Cpp/linked-list-cycle-ii.cpp)| _O(n)_ | _O(1)_ | Hard | LeetCode | |
-|105|[Copy List with Random Pointer](http://lintcode.com/en/problem/copy-list-with-random-pointer/)|[Cpp](./Cpp/copy-list-with-random-pointer.cpp)| _O(n)_ | _O(1)_ | Medium | LeetCode | |
-|106|[Convert Sorted List to Binary Search Tree](http://lintcode.com/en/problem/convert-sorted-list-to-binary-search-tree/)|[Cpp](./Cpp/convert-sorted-list-to-binary-search-tree.cpp)| _O(n)_ | _O(logn)_ | Medium | LeetCode, EPI | |
-|112|[Remove Duplicates from Sorted List](http://lintcode.com/en/problem/remove-duplicates-from-sorted-list/)|[Cpp](./Cpp/remove-duplicates-from-sorted-list.cpp)| _O(n)_ | _O(1)_ | Easy | LeetCode, EPI | |
-|113|[Remove Duplicates from Sorted List II](http://lintcode.com/en/problem/remove-duplicates-from-sorted-list-ii/)|[Cpp](./Cpp/remove-duplicates-from-sorted-list-ii.cpp)| _O(n)_ | _O(1)_ | Medium | LeetCode, EPI | |
-|166|[Nth to Last Node in List](http://lintcode.com/en/problem/nth-to-last-node-in-list/)|[Cpp](./Cpp/nth-to-last-node-in-list.cpp)| _O(n)_ | _O(1)_ | Easy | LeetCode | |
-|167|[Two Lists Sum](http://lintcode.com/en/problem/two-lists-sum/)|[Cpp](./Cpp/two-lists-sum.cpp)| _O(n)_ | _O(1)_ | Easy | LeetCode | |
-|170|[Rotate List](http://lintcode.com/en/problem/rotate-list/)|[Cpp](./Cpp/rotate-list.cpp)| _O(n)_ | _O(1)_ | Medium | LeetCode | |
-|173|[Insertion Sort List](http://lintcode.com/en/problem/insertion-sort-list/)|[Cpp](./Cpp/insertion-sort-list.cpp)| _O(n^2)_ | _O(1)_ | Easy | LeetCode | |
-|174|[Remove Nth Node From End of List](http://lintcode.com/en/problem/remove-nth-node-from-end-of-list/)|[Cpp](./Cpp/remove-nth-node-from-end-of-list.cpp)| _O(n)_ | _O(1)_ | Easy | LeetCode | |
+|16|[Merge Two Sorted Lists](http://lintcode.com/en/problem/merge-two-sorted-lists/)|[Cpp](./Cpp/Merge Two Sorted Lists.cpp)| _O(n)_ | _O(1)_ | Easy | LeetCode, EPI | |
+|35|[Reverse Linked List](http://lintcode.com/en/problem/reverse-linked-list/)|[Cpp](./Cpp/Reverse Linked List.cpp)| _O(n)_ | _O(1)_ | Easy | LeetCode, EPI | |
+|36|[Reverse Linked List II](http://lintcode.com/en/problem/reverse-linked-list-ii/)|[Cpp](./Cpp/Reverse Linked List II.cpp)| _O(n)_ | _O(1)_ | Medium | LeetCode, EPI | |
+|96|[Partition List](http://lintcode.com/en/problem/partition-list/)|[Cpp](./Cpp/Partition List.cpp)| _O(n)_ | _O(1)_ | Easy | LeetCode | |
+|98|[Sort List](http://lintcode.com/en/problem/sort-list/)|[Cpp](./Cpp/Sort List.cpp)| _O(nlogn)_ | _O(logn)_ | Medium | LeetCode, EPI | |
+|99|[Reorder List](http://lintcode.com/en/problem/reorder-list/)|[Cpp](./Cpp/Reorder List.cpp)| _O(n)_ | _O(1)_ | Medium | LeetCode | |
+|102|[Linked List Cycle](http://lintcode.com/en/problem/linked-list-cycle/)|[Cpp](./Cpp/Linked List Cycle.cpp)| _O(n)_ | _O(1)_ | Medium | LeetCode | |
+|103|[Linked List Cycle II](http://lintcode.com/en/problem/linked-list-cycle-ii/)|[Cpp](./Cpp/Linked List Cycle II.cpp)| _O(n)_ | _O(1)_ | Hard | LeetCode | |
+|105|[Copy List with Random Pointer](http://lintcode.com/en/problem/copy-list-with-random-pointer/)|[Cpp](./Cpp/Copy List with Random Pointer.cpp)| _O(n)_ | _O(1)_ | Medium | LeetCode | |
+|106|[Convert Sorted List to Binary Search Tree](http://lintcode.com/en/problem/convert-sorted-list-to-binary-search-tree/)|[Cpp](./Cpp/Convert Sorted List to Binary Search Tree.cpp)| _O(n)_ | _O(logn)_ | Medium | LeetCode, EPI | |
+|112|[Remove Duplicates from Sorted List](http://lintcode.com/en/problem/remove-duplicates-from-sorted-list/)|[Cpp](./Cpp/Remove Duplicates from Sorted List.cpp)| _O(n)_ | _O(1)_ | Easy | LeetCode, EPI | |
+|113|[Remove Duplicates from Sorted List II](http://lintcode.com/en/problem/remove-duplicates-from-sorted-list-ii/)|[Cpp](./Cpp/Remove Duplicates from Sorted List II.cpp)| _O(n)_ | _O(1)_ | Medium | LeetCode, EPI | |
+|166|[Nth to Last Node in List](http://lintcode.com/en/problem/nth-to-last-node-in-list/)|[Cpp](./Cpp/Nth to Last Node in List.cpp)| _O(n)_ | _O(1)_ | Easy | LeetCode | |
+|167|[Two Lists Sum](http://lintcode.com/en/problem/two-lists-sum/)|[Cpp](./Cpp/Two Lists Sum.cpp)| _O(n)_ | _O(1)_ | Easy | LeetCode | |
+|170|[Rotate List](http://lintcode.com/en/problem/rotate-list/)|[Cpp](./Cpp/Rotate List.cpp)| _O(n)_ | _O(1)_ | Medium | LeetCode | |
+|173|[Insertion Sort List](http://lintcode.com/en/problem/insertion-sort-list/)|[Cpp](./Cpp/Insertion Sort List.cpp)| _O(n^2)_ | _O(1)_ | Easy | LeetCode | |
+|174|[Remove Nth Node From End of List](http://lintcode.com/en/problem/remove-nth-node-from-end-of-list/)|[Cpp](./Cpp/Remove Nth Node From End of List.cpp)| _O(n)_ | _O(1)_ | Easy | LeetCode | |
 
 ---
 
 ##Tree
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |
 |---| ----- | -------- | ---- | ----- | ---------- | --- | ---- |
-|85|[Insert Node in a Binary Search Tree](http://lintcode.com/en/problem/insert-node-in-a-binary-search-tree/)| [Cpp](./Cpp/insert-node-in-a-binary-search-tree.cpp)| _O(h)_ | _O(1)_ | Easy | | |
-|88|[Lowest Common Ancestor](http://lintcode.com/en/problem/lowest-common-ancestor/)| [Cpp](./Cpp/lowest-common-ancestor.cpp)| _O(n)_ | _O(h)_ | Medium | EPI | |
-|127|[Max Tree](http://lintcode.com/en/problem/max-tree/)| [Cpp](./Cpp/max-tree.cpp)| _O(n)_ | _O(n)_ | Hard | | |
+|85|[Insert Node in a Binary Search Tree](http://lintcode.com/en/problem/insert-node-in-a-binary-search-tree/)| [Cpp](./Cpp/Insert Node in a Binary Search Tree.cpp)| _O(h)_ | _O(1)_ | Easy | | |
+|88|[Lowest Common Ancestor](http://lintcode.com/en/problem/lowest-common-ancestor/)| [Cpp](./Cpp/Lowest Common Ancestor.cpp)| _O(n)_ | _O(h)_ | Medium | EPI | |
+|127|[Max Tree](http://lintcode.com/en/problem/max-tree/)| [Cpp](./Cpp/Max Tree.cpp)| _O(n)_ | _O(n)_ | Hard | | |
 
 ---
 
 ##Stack
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |
 |---| ----- | -------- | ---- | ----- | ---------- | --- | ---- |
-|12|[Min Stack](http://lintcode.com/en/problem/min-stack/)| [Cpp](./Cpp/min-stack.cpp)| _O(n)_ | _O(1)_ | Medium | LeetCode, EPI | |
-|40|[Implement Queue by Two Stacks](http://lintcode.com/en/problem/implement-queue-by-two-stacks/)| [Cpp](./Cpp/implement-queue-by-two-stacks.cpp)| _O(1), amortized_ | _O(n)_ | Medium | EPI | |
-|66|[Binary Tree Preorder Traversal](http://lintcode.com/en/problem/binary-tree-preorder-traversal/)| [Cpp](./Cpp/binary-tree-preorder-traversal.cpp)| _O(n)_ | _O(1)_ | Easy | LeetCode, EPI | `Morris Traversal` |
-|67|[Binary Tree Inorder Traversal](http://lintcode.com/en/problem/binary-tree-inorder-traversal/)| [Cpp](./Cpp/binary-tree-inorder-traversal.cpp)| _O(n)_ | _O(1)_ | Easy | LeetCode, EPI | `Morris Traversal` |
-|68|[Binary Tree Postorder Traversal](http://lintcode.com/en/problem/binary-tree-postorder-traversal/)| [Cpp](./Cpp/binary-tree-postorder-traversal.cpp)| _O(n)_ | _O(1)_ | Easy | LeetCode, EPI | `Morris Traversal` |
-|122|[Largest Rectangle in Histogram](http://lintcode.com/en/problem/largest-rectangle-in-histogram/)| [Cpp](./Cpp/largest-rectangle-in-histogram.cpp)| _O(n)_ | _O(n)_ | Hard | LeetCode, EPI | |
-|367|[Expression Tree Build](http://lintcode.com/en/problem/expression-tree-build/)| [Cpp](./Cpp/expression-tree-build.cpp)| _O(n)_ | _O(n)_ | Hard | | |
-|368|[Expression evaluation](http://lintcode.com/en/problem/expression-evaluation/)| [Cpp](./Cpp/expression-evaluation.cpp)| _O(n)_ | _O(n)_ | Hard | | |
-|369|[Convert Expression to Polish Notation](http://lintcode.com/en/problem/convert-expression-to-reverse-notation/)| [Cpp](./Cpp/convert-expression-to-polish-notation.cpp)| _O(n)_ | _O(n)_ | Hard | | |
-|370|[Convert Expression to Reverse Polish Notation](http://lintcode.com/en/problem/convert-expression-to-reverse-polish-notation/)| [Cpp](./Cpp/convert-expression-to-reverse-polish-notation.cpp)| _O(n)_ | _O(n)_ | Hard | | |
+|12|[Min Stack](http://lintcode.com/en/problem/min-stack/)| [Cpp](./Cpp/Min Stack.cpp)| _O(n)_ | _O(1)_ | Medium | LeetCode, EPI | |
+|40|[Implement Queue by Two Stacks](http://lintcode.com/en/problem/implement-queue-by-two-stacks/)| [Cpp](./Cpp/Implement Queue by Two Stacks.cpp)| _O(1), amortized_ | _O(n)_ | Medium | EPI | |
+|66|[Binary Tree Preorder Traversal](http://lintcode.com/en/problem/binary-tree-preorder-traversal/)| [Cpp](./Cpp/Binary Tree Preorder Traversal.cpp)| _O(n)_ | _O(1)_ | Easy | LeetCode, EPI | `Morris Traversal` |
+|67|[Binary Tree Inorder Traversal](http://lintcode.com/en/problem/binary-tree-inorder-traversal/)| [Cpp](./Cpp/Binary Tree Inorder Traversal.cpp)| _O(n)_ | _O(1)_ | Easy | LeetCode, EPI | `Morris Traversal` |
+|68|[Binary Tree Postorder Traversal](http://lintcode.com/en/problem/binary-tree-postorder-traversal/)| [Cpp](./Cpp/Binary Tree Postorder Traversal.cpp)| _O(n)_ | _O(1)_ | Easy | LeetCode, EPI | `Morris Traversal` |
+|122|[Largest Rectangle in Histogram](http://lintcode.com/en/problem/largest-rectangle-in-histogram/)| [Cpp](./Cpp/Largest Rectangle in Histogram.cpp)| _O(n)_ | _O(n)_ | Hard | LeetCode, EPI | |
+|367|[Expression Tree Build](http://lintcode.com/en/problem/expression-tree-build/)| [Cpp](./Cpp/Expression Tree Build.cpp)| _O(n)_ | _O(n)_ | Hard | | |
+|368|[Expression evaluation](http://lintcode.com/en/problem/expression-evaluation/)| [Cpp](./Cpp/Expression evaluation.cpp)| _O(n)_ | _O(n)_ | Hard | | |
+|369|[Convert Expression to Polish Notation](http://lintcode.com/en/problem/convert-expression-to-reverse-notation/)| [Cpp](./Cpp/Convert Expression to Polish Notation.cpp)| _O(n)_ | _O(n)_ | Hard | | |
+|370|[Convert Expression to Reverse Polish Notation](http://lintcode.com/en/problem/convert-expression-to-reverse-polish-notation/)| [Cpp](./Cpp/Convert Expression to Reverse Polish Notation.cpp)| _O(n)_ | _O(n)_ | Hard | | |
 
 ---
 
 ##Queue
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |
 |---| ----- | -------- | ---- | ----- | ---------- | --- | ---- |
-|362|[Sliding Window Maximum](http://lintcode.com/en/problem/sliding-window-maximum/)| [Cpp](./Cpp/sliding-window-maximum.cpp)| _O(n)_ | _O(k)_ | Hard | EPI | Deque, Tricky |
+|362|[Sliding Window Maximum](http://lintcode.com/en/problem/sliding-window-maximum/)| [Cpp](./Cpp/Sliding Window Maximum.cpp)| _O(n)_ | _O(k)_ | Hard | EPI | Deque, Tricky |
 
 ---
 
 ##Heap
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |
 |---| ----- | -------- | ---- | ----- | ---------- | --- | ---- |
-|4|[Ugly Number](http://lintcode.com/en/problem/ugly-number/)| [Cpp](./Cpp/ugly-number.cpp)| _O(k)_ | _O(1)_ | Medium | CTCI | |
-|81|[Median in Data Stream](http://lintcode.com/en/problem/median-in-data-stream/)| [Cpp](./Cpp/median-in-data-stream.cpp)| _O(nlogn)_ | _O(n)_ | Hard | EPI | BST, Heap |
-|104|[Merge k Sorted Lists](http://lintcode.com/en/problem/merge-k-sorted-lists/)| [Cpp](./Cpp/merge-k-sorted-lists.cpp)| _O(n * logk)_ | _O(k)_ | Medium | LeetCode | |
-|130|[Heapify](http://lintcode.com/en/problem/heapify/)| [Cpp](./Cpp/heapify.cpp)| _O(n)_ | _O(1)_ | Medium | | |
-|364|[Trapping Rain Water II](http://lintcode.com/en/problem/trapping-rain-water-ii/)| [Cpp](./Cpp/trapping-rain-water-ii.cpp)| _O(n^2 * logn)_ | _O(n^2)_ | Hard | | BFS, Heap, Tricky |
+|4|[Ugly Number](http://lintcode.com/en/problem/ugly-number/)| [Cpp](./Cpp/Ugly Number.cpp)| _O(k)_ | _O(1)_ | Medium | CTCI | |
+|81|[Median in Data Stream](http://lintcode.com/en/problem/median-in-data-stream/)| [Cpp](./Cpp/Median in Data Stream.cpp)| _O(nlogn)_ | _O(n)_ | Hard | EPI | BST, Heap |
+|104|[Merge k Sorted Lists](http://lintcode.com/en/problem/merge-k-sorted-lists/)| [Cpp](./Cpp/Merge k Sorted Lists.cpp)| _O(n * logk)_ | _O(k)_ | Medium | LeetCode | |
+|130|[Heapify](http://lintcode.com/en/problem/heapify/)| [Cpp](./Cpp/Heapify.cpp)| _O(n)_ | _O(1)_ | Medium | | |
+|364|[Trapping Rain Water II](http://lintcode.com/en/problem/trapping-rain-water-ii/)| [Cpp](./Cpp/Trapping Rain Water II.cpp)| _O(n^2 * logn)_ | _O(n^2)_ | Hard | | BFS, Heap, Tricky |
 
 ---
 
 ##Hash Tables
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |
 |---| ----- | -------- | ---- | ----- | ---------- | --- | ---- |
-|56|[2 Sum](http://lintcode.com/en/problem/2-sum/)| [Cpp](./Cpp/2-sum.cpp)| _O(n)_ | _O(n)_ | Medium | LeetCode | |
-|58|[4 Sum](http://lintcode.com/en/problem/4-sum/)| [Cpp](./Cpp/4-sum.cpp)| _O(n^2 * p)_ | _O(n^2 * p)_ | Medium | LeetCode | Hash |
-|124|[Longest Consecutive Sequence](http://lintcode.com/en/problem/longest-consecutive-sequence/)| [Cpp](./Cpp/longest-consecutive-sequence.cpp)| _O(n)_ | _O(n)_ | Medium | LeetCode, EPI | |
-|128|[Hash Function](http://lintcode.com/en/problem/hash-function/)| [Cpp](./Cpp/hash-function.cpp)| _O(n)_ | _O(1)_ | Easy | | |
-|129|[Rehashing](http://lintcode.com/en/problem/rehashing/)| [Cpp](./Cpp/rehashing.cpp)| _O(n)_ | _O(n)_ | Medium | | |
-|138|[Subarray Sum](http://lintcode.com/en/problem/subarray-sum/)| [Cpp](./Cpp/subarray-sum.cpp)| _O(n)_ | _O(n)_ | Easy | | |
-|384|[Longest Substring Without Repeating Characters](http://lintcode.com/en/problem/longest-substring-without-repeating-characters/)| [Cpp](./Cpp/longest-substring-without-repeating-characters.cpp)| _O(n)_ | _O(1)_ | Medium | LeetCode, EPI | |
-|386|[Longest Substring with At Most K Distinct Characters](http://lintcode.com/en/problem/longest-substring-with-at-most-k-distinct-characters/)| [Cpp](./Cpp/longest-substring-with-at-most-k-distinct-characters.cpp)| _O(n)_ | _O(n)_ | Medium | | |
+|56|[2 Sum](http://lintcode.com/en/problem/2-sum/)| [Cpp](./Cpp/2 Sum.cpp)| _O(n)_ | _O(n)_ | Medium | LeetCode | |
+|58|[4 Sum](http://lintcode.com/en/problem/4-sum/)| [Cpp](./Cpp/4 Sum.cpp)| _O(n^2 * p)_ | _O(n^2 * p)_ | Medium | LeetCode | Hash |
+|124|[Longest Consecutive Sequence](http://lintcode.com/en/problem/longest-consecutive-sequence/)| [Cpp](./Cpp/Longest Consecutive Sequence.cpp)| _O(n)_ | _O(n)_ | Medium | LeetCode, EPI | |
+|128|[Hash Function](http://lintcode.com/en/problem/hash-function/)| [Cpp](./Cpp/Hash Function.cpp)| _O(n)_ | _O(1)_ | Easy | | |
+|129|[Rehashing](http://lintcode.com/en/problem/rehashing/)| [Cpp](./Cpp/Rehashing.cpp)| _O(n)_ | _O(n)_ | Medium | | |
+|138|[Subarray Sum](http://lintcode.com/en/problem/subarray-sum/)| [Cpp](./Cpp/Subarray Sum.cpp)| _O(n)_ | _O(n)_ | Easy | | |
+|384|[Longest Substring Without Repeating Characters](http://lintcode.com/en/problem/longest-substring-without-repeating-characters/)| [Cpp](./Cpp/Longest Substring Without Repeating Characters.cpp)| _O(n)_ | _O(1)_ | Medium | LeetCode, EPI | |
+|386|[Longest Substring with At Most K Distinct Characters](http://lintcode.com/en/problem/longest-substring-with-at-most-k-distinct-characters/)| [Cpp](./Cpp/Longest Substring with At Most K Distinct Characters.cpp)| _O(n)_ | _O(n)_ | Medium | | |
 
 ---
 
 ##Data Structure
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |
 |---| ----- | -------- | ---- | ----- | ---------- | --- | ---- |
-|134|[LRU Cache](http://lintcode.com/en/problem/lru-cache/)| [Cpp](./Cpp/lru-cache.cpp)| _O(1)_ | _O(c)_ | Hard | LeetCode, EPI | List, Hash |
+|134|[LRU Cache](http://lintcode.com/en/problem/lru-cache/)| [Cpp](./Cpp/LRU Cache.cpp)| _O(1)_ | _O(c)_ | Hard | LeetCode, EPI | List, Hash |
 
 ---
 
 ##Math
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |
 |---| ----- | -------- | ---- | ----- | ---------- | --- | ---- |
-|2|[Trailing Zeros](http://lintcode.com/en/problem/trailing-zeros/)| [Cpp](./Cpp/trailing-zeros.cpp)| _O(logn)_ | _O(1)_ | Easy | LeetCode | |
-|3|[Digit Counts](http://lintcode.com/en/problem/digit-counts/)| [Cpp](./Cpp/digit-counts.cpp)| _O(logn)_ | _O(1)_ | Medium | CTCI | |
-|114|[Unique Paths](http://lintcode.com/en/problem/unique-paths/)| [Cpp](./Cpp/unique-paths.cpp)| _O(min(m, n))_ | _O(1)_ | Easy | LeetCode, CTCI | DP, Math |
-|163|[Unique Binary Search Trees](http://lintcode.com/en/problem/unique-binary-search-trees/)| [Cpp](./Cpp/unique-binary-search-trees.cpp)| _O(n)_ | _O(1)_ | Medium | CTCI | DP, Math, `Catalan Number` |
-|180|[Binary Represention](http://lintcode.com/en/problem/delete-digits/)| [Cpp](./Cpp/binary-representation.cpp)| _O(1)_ | _O(1)_ | Hard | CTCI | |
+|2|[Trailing Zeros](http://lintcode.com/en/problem/trailing-zeros/)| [Cpp](./Cpp/Trailing Zeros.cpp)| _O(logn)_ | _O(1)_ | Easy | LeetCode | |
+|3|[Digit Counts](http://lintcode.com/en/problem/digit-counts/)| [Cpp](./Cpp/Digit Counts.cpp)| _O(logn)_ | _O(1)_ | Medium | CTCI | |
+|114|[Unique Paths](http://lintcode.com/en/problem/unique-paths/)| [Cpp](./Cpp/Unique Paths.cpp)| _O(min(m, n))_ | _O(1)_ | Easy | LeetCode, CTCI | DP, Math |
+|163|[Unique Binary Search Trees](http://lintcode.com/en/problem/unique-binary-search-trees/)| [Cpp](./Cpp/Unique Binary Search Trees.cpp)| _O(n)_ | _O(1)_ | Medium | CTCI | DP, Math, `Catalan Number` |
+|180|[Binary Represention](http://lintcode.com/en/problem/delete-digits/)| [Cpp](./Cpp/Binary Represention.cpp)| _O(1)_ | _O(1)_ | Hard | CTCI | |
 
 ---
 
 ##Sort
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |
 |---| ----- | -------- | ---- | ----- | ---------- | --- | ---- |
-|5|[Kth Largest Element](http://lintcode.com/en/problem/kth-largest-element/)| [Cpp](./Cpp/kth-largest-element.cpp)| _O(n)_ | _O(1)_ | Medium | EPI | Two Pointers, Quick Sort |
-|80|[Median](http://lintcode.com/en/problem/median/)| [Cpp](./Cpp/median.cpp)| _O(n)_ | _O(1)_ | Easy | EPI | |
-|139|[Subarray Sum Closest](http://lintcode.com/en/problem/subarray-sum-closest/)| [Cpp](./Cpp/subarray-sum-closest.cpp)| _O(nlogn)_ | _O(n)_ | Medium | | Sort |
-|143|[Sort Colors II](http://lintcode.com/en/problem/sort-colors-ii/)| [Cpp](./Cpp/sort-colors-ii.cpp)| _O(n)_ | _O(1)_ | Medium | | |
-|148|[Sort Colors](http://lintcode.com/en/problem/sort-colors/)| [Cpp](./Cpp/sort-colors.cpp)| _O(n)_ | _O(1)_ | Medium | LeetCode | |
-|184|[Largest Number](http://lintcode.com/en/problem/largest-number/)| [Cpp](./Cpp/largest-number.cpp)| _O(nlogn)_ | _O(1)_ | Medium | LeetCode | |
-|387|[The Smallest Difference](http://lintcode.com/en/problem/the-smallest-difference/)| [Cpp](./Cpp/the-smallest-difference.cpp)| _O(nlogn)_ | _O(1)_ | Medium | | Two Pointers |
+|5|[Kth Largest Element](http://lintcode.com/en/problem/kth-largest-element/)| [Cpp](./Cpp/Kth Largest Element.cpp)| _O(n)_ | _O(1)_ | Medium | EPI | Two Pointers, Quick Sort |
+|80|[Median](http://lintcode.com/en/problem/median/)| [Cpp](./Cpp/Median.cpp)| _O(n)_ | _O(1)_ | Easy | EPI | |
+|139|[Subarray Sum Closest](http://lintcode.com/en/problem/subarray-sum-closest/)| [Cpp](./Cpp/Subarray Sum Closest.cpp)| _O(nlogn)_ | _O(n)_ | Medium | | Sort |
+|143|[Sort Colors II](http://lintcode.com/en/problem/sort-colors-ii/)| [Cpp](./Cpp/Sort Colors II.cpp)| _O(n)_ | _O(1)_ | Medium | | |
+|148|[Sort Colors](http://lintcode.com/en/problem/sort-colors/)| [Cpp](./Cpp/Sort Colors.cpp)| _O(n)_ | _O(1)_ | Medium | LeetCode | |
+|184|[Largest Number](http://lintcode.com/en/problem/largest-number/)| [Cpp](./Cpp/Largest Number.cpp)| _O(nlogn)_ | _O(1)_ | Medium | LeetCode | |
+|387|[The Smallest Difference](http://lintcode.com/en/problem/the-smallest-difference/)| [Cpp](./Cpp/The Smallest Difference.cpp)| _O(nlogn)_ | _O(1)_ | Medium | | Two Pointers |
 
 ---
 

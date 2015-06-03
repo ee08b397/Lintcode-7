@@ -42,7 +42,7 @@ public:
                 rmin = i;
             }
         }
-        if (maxv > sum - minv || (rmin - lmin + 1 == len)) { // all nums are negative
+        if (maxv > sum - minv || (rmin - lmin + 1 == len)) { // all nums are negative problem??
             res.push_back(lmax);
             res.push_back(rmax);
         } else {

@@ -7,12 +7,13 @@ public:
     int findMin(vector<int> &num) {
         // write your code here
         int len = num.size();
-        int left = 0, right = len - 1, mid;
-        while(left < right && num[left] > num[right]){
-            mid = (left + right) / 2;
-            if(num[mid] < num[right]) right = mid;
-            else left = mid + 1;
+        int start = 0, end = len - 1, mid;
+        while (start + 1 < end) {
+            mid = start + (end - start) / 2;
+            if (num[mid] < num[end]) end = mid;
+            else start = mid;
         }
-        return num[left];
+        if (num[start] < num[end]) return num[start];
+        else return num[end];
     }
 };

@@ -3,22 +3,19 @@ public:
     /**
      * @param nums: The integer array.
      * @param target: Target number to find.
-     * @return: The first position of target. Position starts from 0.
+     * @return: The first position of target. Position starts from 0. 
      */
     int binarySearch(vector<int> &array, int target) {
         // write your code here
-        int left = 0, right = array.size() - 1, mid;
-        while (left <= right) {
-          mid = (left + right) / 2;
-          if (array[mid] == target) {
-            if(mid > 0 && array[mid - 1] == target) right = mid - 1;
-            else return mid;
-          }
-          else if (array[mid] > target) {
-            right = mid - 1;
-          }
-          else left = mid + 1;
+        int start = 0, end = array.size() - 1, mid;
+        while (start + 1 < end) {
+            mid = start + (end - start) / 2;
+            if (array[mid] == target) end = mid;
+            else if(array[mid] > target) end = mid;
+            else start = mid;
         }
+        if (array[start] == target) return start;
+        if (array[end] == target) return end;
         return -1;
     }
 };

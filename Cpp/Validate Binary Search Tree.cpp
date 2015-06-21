@@ -11,24 +11,22 @@
  * }
  */
 class Solution {
+private:
+    bool firstnode = true;
+    int lastval = INT_MIN;
 public:
     /**
      * @param root: The root of binary tree.
      * @return: True if the binary tree is BST, or false
      */
-    void inorder(TreeNode *root, vector<int> &vec) {
-        if (root == NULL) return;
-        inorder(root->left, vec);
-        vec.push_back(root->val);
-        inorder(root->right, vec);
-    }
     bool isValidBST(TreeNode *root) {
         // write your code here
-        vector<int> vec;
-        inorder(root, vec);
-        for (int i = 1; i < vec.size(); i ++) {
-            if (vec[i] <= vec[i-1]) return false;
-        }
+        if (root == NULL) return true;
+        if (!isValidBST(root->left)) return false;
+        if (!firstnode && lastval >= root->val) return false;
+        firstnode = false;
+        lastval = root->val;
+        if (!isValidBST(root->right)) return false;
         return true;
     }
 };

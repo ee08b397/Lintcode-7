@@ -26,5 +26,6 @@ public:
     }
     bool isBalanced(TreeNode *root) {
         // write your code here
+        return getdepth(root) != -1;
     }
 };

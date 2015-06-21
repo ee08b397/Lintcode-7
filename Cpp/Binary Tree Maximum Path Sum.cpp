@@ -13,21 +13,36 @@ public:
 
 class Solution {
 public:
-    int maxPathSum(TreeNode *root) {
-        max_sum = INT_MIN;
-        dfs(root);
-        return max_sum;
+    /**
+     * @param root: The root of binary tree.
+     * @return: An integer
+     */
+    class ResultType {
+    public:
+        int singlePath, maxPath;
+        ResultType(int singlePath, int maxPath) {
+            this->singlePath = singlePath;
+            this->maxPath = maxPath;
+        }
+    };
+    ResultType helper(TreeNode *root) {
+        if (root == NULL) {
+            return ResultType(0, INT_MIN);
+        }
+        //divide
+        ResultType left = helper(root->left);
+        ResultType right = helper(root->right);
+        //conquer
+        int singlePath = max(left.singlePath, right.singlePath) + root->val;
+        singlePath = max(singlePath, 0);
+
+        int maxPath = max(left.maxPath, right.maxPath);
+        maxPath = max(maxPath, left.singlePath + right.singlePath + root->val);
+        return ResultType(singlePath, maxPath);
     }
-private:
-    int max_sum;
-    int dfs(const TreeNode *root) {
-        if (root == nullptr) return 0;
-        int l = dfs(root->left);
-        int r = dfs(root->right);
-        int sum = root->val;
-        if (l > 0) sum += l;
-        if (r > 0) sum += r;
-        max_sum = max(max_sum, sum);
-        return max(r, l) > 0 ? max(r, l) + root->val : root->val;
+    int maxPathSum(TreeNode *root) {
+        // write your code here
+        ResultType result = helper(root);
+        return result.maxPath;
     }
 };

@@ -11,7 +11,6 @@ public:
     }
 };
 
-
 class Solution {
     /**
      * @param root: The root of binary tree.
@@ -20,34 +19,23 @@ class Solution {
 public:
     vector<vector<int> > levelOrder(TreeNode *root) {
         // write your code here
-        vector<vector<int> > vec;
-        if (root == NULL) return vec;
-        queue<TreeNode*> q1,q2;
-        TreeNode *res;
-        q1.push(root);
-        while (!q1.empty() || !q2.empty()) {
-            vector<int> st;
-            if (!q1.empty()) {
-                while (!q1.empty()) {
-                    res = q1.front();
-                    if (res->left != NULL) q2.push(res->left);
-                    if (res->right != NULL) q2.push(res->right);
-                    q1.pop();
-                    st.push_back(res->val);
-                }
-                vec.push_back(st);
+        vector<vector<int> > res;
+        if (root == NULL) return res;
+        queue<TreeNode *> q;
+        q.push(root);
+        while (!q.empty()) {
+            int size = q.size();
+            vector<int> cur;
+            for (int i = 0; i < size; i ++) {
+                TreeNode *temp = q.front();
+                q.pop();
+                cur.push_back(temp->val);
+                if (temp->left != NULL) q.push(temp->left);
+                if (temp->right != NULL) q.push(temp->right);
             }
-            else {
-                while (!q2.empty()) {
-                    res = q2.front();
-                    if (res->left != NULL) q1.push(res->left);
-                    if (res->right != NULL) q1.push(res->right);
-                    q2.pop();
-                    st.push_back(res->val);
-                }
-                vec.push_back(st);
-            }
+            res.push_back(cur);
         }
-        return vec;
+        return res;
     }
 };
+

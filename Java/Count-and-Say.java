@@ -4,7 +4,7 @@ public class Solution {
      * @return the nth sequence
      */
     public String solve(String s) {
-    	String str;
+    	String str = "";
     	int num = 1;
     	char ch = s.charAt(0);
     	for (int i = 1; i < s.length(); i ++) {
@@ -26,6 +26,7 @@ public class Solution {
         String s = "1";
         while (n > 1) {
         	s = solve(s);
+        	n --;
         }
         return s;
     }

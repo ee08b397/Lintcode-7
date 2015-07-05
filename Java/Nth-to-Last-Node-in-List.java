@@ -12,16 +12,24 @@
 public class Solution {
     /**
      * @param head: The first node of linked list.
-     * @return: The head of linked list.
+     * @param n: An integer.
+     * @return: Nth to last node of a singly linked list. 
      */
-    public ListNode insertionSortList(ListNode head) {
+    ListNode nthToLast(ListNode head, int n) {
         // write your code here
-        if (head == null || head.next == null) return head;
         ListNode dummy = new ListNode(-1);
         dummy.next = head;
         ListNode cur = dummy;
-        while (cur.next != null) {
-        	ListNode temp = cur.next;
+        int count = 0;
+        while (count++ < n) {
+        	cur = cur.next;
         }
-    } 
+        ListNode cnt = dummy;
+        while (cur != null) {
+        	cur = cur.next;
+        	cnt = cnt.next;
+        }
+        return cnt;
+    }
 }
+

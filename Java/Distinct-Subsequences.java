@@ -2,6 +2,7 @@ public class Solution {
     /**
      * @param S, T: Two string.
      * @return: Count the number of distinct subsequences
+     * Time complexity: O(N^2)
      */
     public int numDistinct(String S, String T) {
         // write your code here

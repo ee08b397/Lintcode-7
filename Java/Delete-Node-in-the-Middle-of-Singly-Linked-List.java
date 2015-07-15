@@ -24,3 +24,19 @@ public class Solution {
         }
     }
 }
+
+public class Solution {
+    /**
+     * @param node: the node in the list should be deleted
+     * @return: nothing
+     */
+    public void deleteNode(ListNode node) {
+        // write your code here
+        if (node == null) return;
+        if (node.next != null) {
+            ListNode temp = node.next.next;
+            node.val = node.next.val;
+            node.next = temp;
+        }
+    }
+}

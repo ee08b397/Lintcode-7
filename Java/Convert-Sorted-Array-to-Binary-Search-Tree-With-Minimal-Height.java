@@ -13,6 +13,7 @@ public class Solution {
     /**
      * @param A: an integer array
      * @return: a tree node
+     * BST
      */
     public TreeNode build(int[] A, int left, int right) {
     	if (left > right) return null;

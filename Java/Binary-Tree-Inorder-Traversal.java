@@ -14,16 +14,21 @@ public class Solution {
      * @param root: The root of binary tree.
      * @return: Inorder in ArrayList which contains node values.
      */
-    void dfs(TreeNode root, ArrayList<Integer> res) {
-    	if (root == null) return;
-    	dfs(root.left, res);
-    	res.add(root.val);
-    	dfs(root.right, res);
-    }
     public ArrayList<Integer> inorderTraversal(TreeNode root) {
         // write your code here
-        ArrayList res = new ArrayList();
-        dfs(root, res);
+        Stack<TreeNode> stk = new Stack<TreeNode>();
+        ArrayList<Integer> res = new ArrayList<Integer>();
+        if (root == null) return res;
+        while (!stk.isEmpty() || root != null) {
+            while (root != null) {
+                stk.push(root);
+                root = root.left;
+            }
+            if (!stk.isEmpty()) {
+                root = stk.peek().right;
+                res.add(stk.pop().val);
+            }
+        }
         return res;
     }
 }

@@ -78,7 +78,7 @@ public:
     vector<int> maxSlidingWindow(vector<int> &nums, int k) {
         // write your code here
         vector<int> res;
-        if (k <= 0) return res;
+        if (k <= 0 || nums.empty()) return res;
         int len = nums.size();
         SegmentTreeNode *root = build(0, min(k - 1, len - 1), nums);
         res.push_back(root->max);

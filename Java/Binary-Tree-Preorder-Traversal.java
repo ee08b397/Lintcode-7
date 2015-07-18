@@ -9,12 +9,13 @@
  *     }
  * }
  */
+
 public class Solution {
     /**
      * @param root: The root of binary tree.
-     * @return: Inorder in ArrayList which contains node values.
+     * @return: Preorder in ArrayList which contains node values.
      */
-    public ArrayList<Integer> inorderTraversal(TreeNode root) {
+    public ArrayList<Integer> preorderTraversal(TreeNode root) {
         // write your code here
         Stack<TreeNode> stk = new Stack<TreeNode>();
         ArrayList<Integer> res = new ArrayList<Integer>();
@@ -22,11 +23,12 @@ public class Solution {
         while (!stk.isEmpty() || root != null) {
             while (root != null) {
                 stk.push(root);
+                res.add(root.val);
                 root = root.left;
             }
             if (!stk.isEmpty()) {
                 root = stk.peek().right;
-                res.add(stk.pop().val);
+                stk.pop();
             }
         }
         return res;

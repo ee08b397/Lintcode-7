@@ -1,7 +1,7 @@
 public class Solution {
     /**
-     * @param expression: an array of strings;
-     * @return: an integer
+     * @param expression: A string array
+     * @return: The Reverse Polish notation of this expression
      */
     public boolean isOp(String s) {
         if (s.length() == 1 && !Character.isDigit(s.charAt(0))) return true;
@@ -14,19 +14,13 @@ public class Solution {
             else return true;
         } else return false;
     }
-    public int IntCal(int x, int y, String Op) {
-        if (Op.equals("+")) return x + y;
-        else if (Op.equals("-")) return y - x;
-        else if (Op.equals("*")) return x * y;
-        else return y / x;
-    }
-    public int evaluateExpression(String[] expression) {
+    public ArrayList<String> convertToRPN(String[] expression) {
         // write your code here
+        ArrayList<String> res = new ArrayList<String>();
         Stack<String> OpStk = new Stack<String>();
-        Stack<Integer> IntStk = new Stack<Integer>();
         for (int i = 0; i < expression.length; i ++) {
             if (!isOp(expression[i])) {
-                IntStk.push(Integer.parseInt(expression[i]));
+                res.add(expression[i]);
             } else {
                 if (OpStk.isEmpty()) {
                     OpStk.push(expression[i]);
@@ -34,14 +28,12 @@ public class Solution {
                     if (expression[i].equals("(")) OpStk.push(expression[i]);
                     else if (expression[i].equals(")")) {
                         while (!OpStk.peek().equals("(")) {
-                            int x = IntStk.pop(), y = IntStk.pop();
-                            IntStk.push(IntCal(x, y, OpStk.pop()));
+                            res.add(OpStk.pop());
                         }
                         OpStk.pop();
                     } else {
                         while (!OpStk.isEmpty() && OpFirst(expression[i], OpStk.peek())) {
-                            int x = IntStk.pop(), y = IntStk.pop();
-                            IntStk.push(IntCal(x, y, OpStk.pop()));
+                           res.add(OpStk.pop());
                         }
                         OpStk.push(expression[i]);
                     }
@@ -49,10 +41,8 @@ public class Solution {
             }
         }
         while (!OpStk.isEmpty()) {
-            int x = IntStk.pop(), y = IntStk.pop();
-            IntStk.push(IntCal(x, y, OpStk.pop()));
+            res.add(OpStk.pop());
         }
-        if (IntStk.isEmpty()) return 0;
-        return IntStk.peek();
+        return res;
     }
-};
+}

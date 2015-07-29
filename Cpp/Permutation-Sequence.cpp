@@ -1,6 +1,3 @@
-#include <string>
-#include <vector>
-
 class Solution {
 public:
     /**

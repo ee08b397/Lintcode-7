@@ -16,8 +16,8 @@ public class Solution {
         if (k == 0) return 0;
         if (k >= nums.size()) return sumSubArray(nums);
         int n = nums.size();
-        int[][] f = new int[n + 1][n + 1];   // mustSell[i][j] 表示前i天，至多进行j次交易，第i天必须sell的最大获益
-        int[][] p = new int[n + 1][n + 1];  // globalbest[i][j] 表示前i天，至多进行j次交易，第i天可以不sell的最大获益
+        int[][] f = new int[n + 1][n + 1];
+        int[][] p = new int[n + 1][n + 1];
         int sum;
         for (int i = 1; i <= k; i ++) {
             sum = Integer.MIN_VALUE;

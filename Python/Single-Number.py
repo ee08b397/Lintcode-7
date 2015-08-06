@@ -5,4 +5,7 @@ class Solution:
     """
     def singleNumber(self, A):
         # write your code here
-		
+        res = 0
+        for i in A:
+            res ^= i
+        return res

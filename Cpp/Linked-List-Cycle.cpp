@@ -19,21 +19,13 @@ public:
      */
     bool hasCycle(ListNode *head) {
         // write your code here
-        if (head == NULL || head ->next == NULL) return false;
-        ListNode *node1 = head, *node2 = head;
-        node1 = node1->next;
-        node2 = (node2->next)->next;
-        if (node2 == NULL) return false;
-        while (node1 != node2) {
-            node1 = node1->next;
-            node2 = node2->next;
-            if (node2 == NULL) return false;
-            node2 = node2->next;
-            if (node2 == NULL) return false;
+        ListNode *slow = head;
+        ListNode *fast = head;
+        while (fast != NULL && fast->next != NULL) {
+            slow = slow->next;
+            fast = fast->next->next;
+            if (slow == fast) return true;
         }
-        return true;
+        return false;
     }
 };
-
-
-

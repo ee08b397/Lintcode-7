@@ -20,29 +20,19 @@ public:
      */
     ListNode *detectCycle(ListNode *head) {
         // write your code here
-        if (head == NULL || head ->next == NULL) return NULL;
-        ListNode *node1 = head, *node2 = head;
-        node1 = node1->next;
-        node2 = (node2->next)->next;
-        if (node2 == NULL) return NULL;
-        int cnt = 1;
-        while (node1 != node2) {
-            node1 = node1->next;
-            node2 = node2->next;
-            if (node2 == NULL) return NULL;
-            node2 = node2->next;
-            if (node2 == NULL) return NULL;
-            cnt ++;
+        ListNode *slow = head;
+        ListNode *fast = head;
+        while (fast != NULL && fast->next != NULL) {
+            slow = slow->next;
+            fast = fast->next->next;
+            if (slow == fast) break;
         }
-        ListNode *node = head;
-        for (int i = 0; i < cnt; i ++) {
-            node = node->next;
+        if (fast == NULL || fast->next == NULL) return NULL;
+        slow = head;
+        while (slow != fast) {
+            slow = slow->next;
+            fast = fast->next;
         }
-        node1 = head;
-        while (node != node1) {
-            node = node->next;
-            node1 = node1->next;
-        }
-        return node;
+        return slow;
     }
 };

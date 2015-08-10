@@ -76,3 +76,88 @@ public class Solution {
         return expansion;
     }
 }
+
+
+//Solution2
+class Node {
+    public int dist;
+    public String str;
+    public LinkedList<Node> prev;
+    public Node(int dist, String str) {
+        this.dist = dist;
+        this.str = str;
+        this.prev = new LinkedList<Node>();
+    }
+    public void addprev(Node pNode) {
+        prev.add(pNode);
+    }
+}
+public class Solution {
+    /**
+     * @param start, a string
+     * @param end, a string
+     * @param dict, a set of string
+     * @return a list of lists of string
+     */
+    public String replace(String str, int pos, char ch) {
+        StringBuffer sb = new StringBuffer(str);
+        sb.setCharAt(pos, ch);
+        return sb.toString();
+    }
+    // Get all the paths by using DFS.
+    private void getPaths(Node end, HashMap<String, Node> map,
+                          List<String> curPath, List<List<String>> paths) {
+        if (end == null) {
+            paths.add(curPath);
+            return;
+        }
+
+        curPath.add(0, end.str);
+        if (!end.prev.isEmpty()) {
+            for (Node prevNode : end.prev) {
+                getPaths(prevNode, map, new ArrayList<String>(curPath), paths);
+            }
+        } else {
+            getPaths(null, map, curPath, paths);
+        }
+    }
+    public List<List<String>> findLadders(String start, String end, Set<String> dict) {
+        // write your code here
+        dict.add(end);
+        HashMap<String, Node> map = new HashMap<String, Node>();
+        Queue<String> q = new LinkedList<String>();
+        Node startNode = new Node(1, start);
+        q.offer(start);
+        map.put(start, startNode);
+        List<List<String>> res = new ArrayList<List<String>>();
+        while (!q.isEmpty()) {
+            String str = q.poll();
+            if (str.equals(end)) {
+                getPaths(map.get(end), map, new ArrayList<String>(), res);
+                return res;
+            }
+            for (int i = 0; i < str.length(); i ++) {
+                for (int j = 0; j < 26; j ++) {
+                    char c = (char)('a' + j);
+                    String New_Str = replace(str, i, c);
+                    if (dict.contains(New_Str)) {
+                        if (!map.containsKey(New_Str)) {
+                            Node node = map.get(str);
+                            Node Newnode = new Node(node.dist + 1, New_Str);
+                            Newnode.prev.add(node);
+                            map.put(New_Str, Newnode);
+                            q.offer(New_Str);
+                        } else {
+                            Node node = map.get(New_Str);
+                            Node prevnode = map.get(str);
+                            if (node.dist == prevnode.dist + 1) {
+                                node.prev.add(prevnode);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        return res;
+    }
+}
